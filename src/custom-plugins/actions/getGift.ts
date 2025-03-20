@@ -128,7 +128,7 @@ const buildFunctionCallDetails = async (
  */
 export const getGiftAction: Action = {
     name: "get gift",
-    description: "Call a function on Functions consumer and send request",
+    description: "Given a wallet address and gift code, extract that data and call a function on the Functions Consumer Smart Contract and send request",
     handler: async (
         runtime: IAgentRuntime,
         message: Memory,

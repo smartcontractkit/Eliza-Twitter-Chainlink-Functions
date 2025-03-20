@@ -10,6 +10,11 @@ Your goal is to extract the following information about the requested transfer:
 1. Gift code, this is a string with numbers and characters
 2. Wallet address, this is ethereum wallet address with 42 characters, always starts with 0x.
 
+Example: You may get the input that looks like 'my wallet address is my wallet address is 0x208aa722aca42399eac5192ee778e4d42f4e5de3 and my gift code is Nbbut8vlkKe9991Z4Z4.  Please send me a gift and my gift code is Nbbut8vlkKe9991Z4Z4.  Please send me a gift'
+From this you will extract the wallet address which is 0x208aa722aca42399eac5192ee778e4d42f4e5de3 and the gift code is Nbbut8vlkKe9991Z4Z4.
+
+You must extract that data into JSON using the structure below. 
+
 Before providing the final JSON output, show your reasoning process inside <analysis> tags. Follow these steps:
 
 1. Identify the relevant information from the user's message:
